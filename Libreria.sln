@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiLibreria", "apiLibreria\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{4D19CA40-4413-4E07-84B8-07377043E091}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Librerias", "Librerias\Librerias.csproj", "{4C7BAEC5-8C4E-47E3-BC82-6A11D2FBCD78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4D19CA40-4413-4E07-84B8-07377043E091}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D19CA40-4413-4E07-84B8-07377043E091}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D19CA40-4413-4E07-84B8-07377043E091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7BAEC5-8C4E-47E3-BC82-6A11D2FBCD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7BAEC5-8C4E-47E3-BC82-6A11D2FBCD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7BAEC5-8C4E-47E3-BC82-6A11D2FBCD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7BAEC5-8C4E-47E3-BC82-6A11D2FBCD78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

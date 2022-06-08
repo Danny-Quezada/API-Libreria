@@ -1,0 +1,15 @@
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\bin\Debug\Librerias.exe.config
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\bin\Debug\Librerias.exe
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\bin\Debug\Librerias.pdb
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\bin\Debug\ViewModel.dll
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\bin\Debug\ViewModel.pdb
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\obj\Debug\Librerias.csproj.AssemblyReference.cache
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\obj\Debug\Librerias.Form1.resources
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\obj\Debug\Librerias.Properties.Resources.resources
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\obj\Debug\Librerias.csproj.GenerateResource.cache
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\obj\Debug\Librerias.csproj.CoreCompileInputs.cache
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\obj\Debug\Librerias.csproj.CopyComplete
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\obj\Debug\Librerias.exe
+C:\Users\JADPA14\Desktop\Project\API-Libreria\Librerias\obj\Debug\Librerias.pdb

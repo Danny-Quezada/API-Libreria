@@ -12,6 +12,7 @@ namespace apiLibreria.Controllers
 {
     public class LibrosController : ApiController
     {
+        
         [HttpGet]
         public IHttpActionResult Get()
         {
@@ -65,7 +66,7 @@ namespace apiLibreria.Controllers
             {
                 return BadRequest("this is not model valid");
             }
-            using(LibreriaEntities db =new LibreriaEntities())
+            using (LibreriaEntities db = new LibreriaEntities())
             {
                 var oLibro = new Models.Libros();
                 oLibro.ISBN = librosWiewModel.ISBN;
@@ -73,11 +74,56 @@ namespace apiLibreria.Controllers
                 oLibro.Autor = librosWiewModel.Autor;
                 oLibro.Temas = librosWiewModel.Temas;
                 oLibro.Editorial = librosWiewModel.Editorial;
-                
+
                 db.Libros.Add(oLibro);
                 db.SaveChanges();
             }
             return Ok("Successfully added record");
         }
+        [HttpPut]
+        public IHttpActionResult Update(LibrosWiewModel librosWiewModel)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("this is not model valid");
+            }
+
+            using (LibreriaEntities DB = new LibreriaEntities())
+            {
+                var oLibro = DB.Libros.Where(x => x.Id == librosWiewModel.Id).FirstOrDefault<Libros>();
+
+                if (oLibro != null)
+                {
+                    oLibro.ISBN = librosWiewModel.ISBN;
+                    oLibro.Titulo = librosWiewModel.Titulo;
+                    oLibro.Autor = librosWiewModel.Autor;
+                    oLibro.Temas = librosWiewModel.Temas;
+                    oLibro.Editorial = librosWiewModel.Editorial;
+                    DB.SaveChanges();
+                }
+                else
+                    return NotFound();
+
+            }
+
+            return Ok();
+        }
+        [HttpDelete]
+        public IHttpActionResult Delete(int id)
+        {
+            if (id <= 0)
+            {
+                return BadRequest("Id is not valid");
+            }
+            using(LibreriaEntities DB=new LibreriaEntities())
+            {
+                var libro = DB.Libros.Where(x => x.Id == id).FirstOrDefault<Libros>();
+                DB.Entry(libro).State = System.Data.Entity.EntityState.Deleted;
+                DB.SaveChanges();
+            }
+            return Ok();
+        }
     }
+
 }
