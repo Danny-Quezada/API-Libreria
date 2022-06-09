@@ -4,3 +4,9 @@ C:\Users\JADPA14\source\repos\Libreria\ViewModel\obj\Debug\ViewModel.csproj.Asse
 C:\Users\JADPA14\source\repos\Libreria\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
 C:\Users\JADPA14\source\repos\Libreria\ViewModel\obj\Debug\ViewModel.dll
 C:\Users\JADPA14\source\repos\Libreria\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\JADPA14\Desktop\Api\API-Libreria\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\JADPA14\Desktop\Api\API-Libreria\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\JADPA14\Desktop\Api\API-Libreria\ViewModel\obj\Debug\ViewModel.csproj.AssemblyReference.cache
+C:\Users\JADPA14\Desktop\Api\API-Libreria\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\JADPA14\Desktop\Api\API-Libreria\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\JADPA14\Desktop\Api\API-Libreria\ViewModel\obj\Debug\ViewModel.pdb

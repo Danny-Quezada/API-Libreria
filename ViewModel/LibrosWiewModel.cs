@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace ViewModel
 
         public int Id { get; set; }
         [Required]
+        [StringLength(15)]
         public string ISBN { get; set; }
         public string Titulo { get; set; }
         public string Autor { get; set; }

@@ -64,7 +64,7 @@ namespace apiLibreria.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest("this is not model valid");
+                return BadRequest(ModelState);
             }
             using (LibreriaEntities db = new LibreriaEntities())
             {
